@@ -1,0 +1,62 @@
+.auth-container {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.auth-container h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #003366;
+}
+
+.role-buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.role-buttons button {
+  flex: 1 1 30%;
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #007acc;
+  background-color: #ffffff;
+  color: #007acc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.role-buttons button.selected,
+.role-buttons button:hover {
+  background-color: #007acc;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 122, 204, 0.3);
+}
+
+.auth-container > button {
+  margin-top: 10px;
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-container > button:hover {
+  background-color: #218838;
+}

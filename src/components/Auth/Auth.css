@@ -1,0 +1,60 @@
+.auth-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #f4f7fb;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form input {
+  padding: 12px;
+  margin: 10px 0 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.auth-form button {
+  padding: 12px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background-color: #0059b3;
+}
+
+.auth-container p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.error-text {
+  color: red;
+  margin-bottom: 10px;
+}
+.role-buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: 2px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.role-buttons button.selected {
+  border-color: #007bff;
+  background-color: #007bff;
+  color: white;
+}
